@@ -28,6 +28,18 @@ font-family: 'Maven Pro', sans-serif;
   margin-top: 20px;
 }
 
+.margin-doubled {
+  margin-top: 40px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
 h1, h2, h3, h4, h5, h6 {
 
   font-family: 'Poppins', sans-serif;
@@ -195,14 +207,85 @@ h4 {
   font-weight: lighter;
   letter-spacing: 2px;
   padding-top: 30px;
+  margin-bottom: 20px;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 52px;
+  line-height: 50px;
 
 }
 
 .jumbotron p{
 
   margin-bottom: 30px;
+}
+
+/****** INIZIO PRIMA SEZIONE ******/
+
+
+.main-text {
+
+  margin-top: 100px;
+  color: rgb(114, 114, 114);
+  width: 65%;
+  height: 1000px;
+}
+
+.main-text span {
+
+  color: #64DE82;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.main-text h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.main-text h3, .three-images h3 {
+  color: #001A4F;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.main-text p {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+hr {
+  opacity: 30%;
+  color: rgb(114, 114, 114);
+}
+
+.laptop-image {
+  background-image: url("https://www.fluentify.com/home/wp-content/uploads/2019/12/Reporting-03-620x620.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+#centered-text{
+
+  text-align: center;
+  color: rgb(114, 114, 114);
+  font-size: 40px;
+  font-weight: 500;
+
+}
+
+
+.no-installation {
+  width: 30%;
+  text-align: center;
+  color: rgb(114, 114, 114);
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-left: 30px;
 }
