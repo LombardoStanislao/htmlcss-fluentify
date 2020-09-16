@@ -6,9 +6,15 @@ font-family: 'Maven Pro', sans-serif;
 
 }
 
-.container {
+.container-large {
 
   width: 80%;
+  margin: auto;
+}
+
+.container-small {
+
+  width: 65%;
   margin: auto;
 }
 
@@ -18,12 +24,21 @@ font-family: 'Maven Pro', sans-serif;
   clear: both;
 }
 
+.margin-top {
+  margin-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+  font-family: 'Poppins', sans-serif;
+}
+
 header {
   background-image: url("https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg");
   width: 100%;
   background-position: center;
   background-size: cover;
-  height: 1000px;
+  height: 500px;
   position: relative;
 }
 
@@ -84,7 +99,7 @@ header {
 
 }
 
-/******  DA CHIEDERE BOTTONE VERDE ******/
+/******  DA CHIEDERE BOTTONE VERDE: ; ******/
 
 .menu li.current-page a::before {
 
@@ -165,5 +180,29 @@ header {
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
   margin-left: 5px;
+}
 
+/* FINITO NAV */
+
+.jumbotron {
+
+  width: 60%;
+  color: white;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 50px;
+
+}
+
+.jumbotron p{
+
+  margin-bottom: 30px;
 }
