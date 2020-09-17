@@ -16,6 +16,7 @@ font-family: 'Maven Pro', sans-serif;
 
   width: 65%;
   margin: auto;
+  position:relative;
 }
 
 .clearfix {
@@ -32,6 +33,16 @@ font-family: 'Maven Pro', sans-serif;
   margin-top: 40px;
 }
 
+.margin-bottom {
+
+  margin-bottom: 25px;
+}
+
+.margin-bottom-doubled {
+
+  margin-bottom: 50px;
+}
+
 .float-left {
   float: left;
 }
@@ -44,6 +55,9 @@ h1, h2, h3, h4, h5, h6 {
 
   font-family: 'Poppins', sans-serif;
 }
+
+
+/***** DA CHIEDERE PROBLEMA ALTEZZA ****/
 
 header {
   background-image: url("https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg");
@@ -221,6 +235,23 @@ h1 {
   margin-bottom: 30px;
 }
 
+.top-left-decoration-line {
+
+  position: absolute;
+  width: 15%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.top-right-decoration-line {
+
+  position: absolute;
+  top: -35px;
+  right: 0;
+  width: 7%;
+}
+
 /****** INIZIO PRIMA SEZIONE ******/
 
 
@@ -229,7 +260,7 @@ h1 {
   margin-top: 100px;
   color: rgb(114, 114, 114);
   width: 65%;
-  height: 1000px;
+
 }
 
 .main-text span {
@@ -240,21 +271,21 @@ h1 {
   font-weight: 500;
 }
 
-.main-text h2 {
+.main-text h2, .mobile-ads h2, .title-study h2 {
   font-size: 40px;
   font-weight: 500;
   line-height: 50px;
 }
 
-.main-text h3, .three-images h3 {
+.main-text h3, .three-images h3, .security-section h3 {
   color: #001A4F;
   font-size: 25px;
   font-weight: 500;
 }
 
-.main-text p {
+.main-text p, .mobile-ads p, .security-section p, .title-study p {
   font-size: 17px;
-  line-height: 28px;
+  line-height: 26px;
   font-weight: 400;
 }
 
@@ -276,6 +307,7 @@ hr {
   color: rgb(114, 114, 114);
   font-size: 40px;
   font-weight: 500;
+  margin-top: 150px;
 
 }
 
@@ -287,5 +319,157 @@ hr {
   font-size: 17px;
   line-height: 24px;
   font-weight: 400;
-  margin-left: 30px;
+  margin-left: 20px;
+}
+
+.mobile-ads {
+  width: 50%;
+}
+
+.mobile-ads h2, .mobile-ads p, .title-study h2, .title-study p, footer {
+
+  color: white;
+
+}
+
+#mobile-section {
+
+  background-color: #011b50;
+  position: relative;
+
+}
+
+.mobile-ads a {
+
+  color: #64DE82;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 0;
+
+}
+
+.mobile-ads a:hover, .logo-info a:hover, .info-menu ul li a:hover {
+
+  color: #64DE82;
+  opacity: 0.7
+}
+
+.smartphone-image  {
+
+  width: 40%;
+}
+
+#smartphone {
+
+  width: 80%;
+  display: block;
+}
+
+/****** INIZIO  SEZIONE SICUREZZA ******/
+
+.security-section {
+
+  width: 50%;
+}
+
+.security-text {
+
+ padding-top: 10%;
+
+}
+
+.security-text p {
+
+  color: rgb(114, 114, 114);
+
+}
+
+/***** INIZIO SEZIONE PIANO DI STUDIO *****/
+
+
+#study-plan {
+  background-color: #2b4782;
+}
+
+.title-study {
+  width: 50%;
+}
+
+.decoration-box {
+  position: relative;
+}
+
+.middle-decoration-left {
+
+  width: 18%;
+  position: absolute;
+  left: 0;
+  top: 70px;
+
+}
+.middle-decoration-right {
+
+  width: 10%;
+  position: absolute;
+  right: 0;
+  top: 28%;
+
+}
+
+/**** INIZIO FOOTER ****/
+
+footer {
+
+  background-color: #001a4f;
+  font-size: 13.5px;
+  line-height: 21px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+.logo-info {
+
+  width: 15%;
+}
+
+.logo-info a {
+  text-decoration: none;
+  color: white;
+}
+
+
+#facebook {
+
+  color: #64DE82;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#linkedin {
+
+  color: #64DE82;
+  margin-top: 20px;
+
+}
+
+.info-menu {
+  width: 14%;
+}
+
+.footer-info {
+  width: 84%;
+
+}
+
+.info-menu ul {
+  list-style: none;
+}
+
+.info-menu ul li a {
+
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
 }
